@@ -33,6 +33,7 @@ invariant = { runs = 375, depth = 500 }                          # Increase the 
 # Default overrides for the Echidna tests.
 [profile.echidna]
 force = true                                                     # Perform always a clean build.
+skip = ["**/*.vy", "**/*.vyi"]
 
 # Default overrides for the Halmos tests.
 [profile.halmos]
